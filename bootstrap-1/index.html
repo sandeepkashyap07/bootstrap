@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <style>
+      .mywidth {
+        width: 400px;
+      }
+      @media (max-width: 400px) {
+        .mywidth {
+          width: calc(100vw - 13px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container d-flex mt-5 justify-content-around ">
+      <div class="  ">
+        <h1>Today s schedule</h1>
+        <div class="text-warning">
+          <h2 >
+            Thursday 11
+            <button class="btn btn-light rounded-circle btn-sm">
+              <img src="assets/arrowright.svg" alt="" width="15" />
+            </button>
+            <button class="btn btn-light rounded-circle btn-sm">
+              <img src="assets/arrowleft.svg" alt="" width="15" />
+            </button>
+          </h2>
+        </div>
+      </div>
+      <div>
+        <img style="width: 50px" src="assets/Plus Copy.png" alt=" " />
+      </div>
+    </div>
+
+    <div
+      style="border-radius: 20px"
+      class="container mt-5 align-items-center bg-warning p-3 mb-3 d-flex justify-content-between "
+    >
+      <div class="d-flex align-items-center">
+        <img
+          src="assets/alaram.svg"
+          width="30"
+          alt="icon"
+          class="rounded-circle mr-3"
+        />
+        <div>
+          <h5 class="mb-0">Wake up Buddy</h5>
+        </div>
+      </div>
+      <p class=" mb-0">7:00 AM</p>
+    </div>
+
+    <div
+      style="border-radius: 20px"
+      class="container bg-warning p-3 mt-2 d-flex justify-content-between align-items-center "
+    >
+      <div class="d-flex align-items-center">
+        <img
+          style="width: 30px; border-radius: 30px"
+          src="assets/yoga.jpg"
+          alt=""
+          class="mr-3"
+        />
+        <h5 class="">Morning Yoga</h5>
+      </div>
+      <p class="mb-0">8:00 AM</p>
+    </div>
+
+    <div
+      style="background-color: rgba(224, 223, 223, 0.382); border-radius: 20px"
+      class="container mt-3 p-3 d-flex justify-content-between "
+    >
+      <div class="d-flex">
+        <img
+          style="width: 30px; height: 30px"
+          src="assets/gym.jpg"
+          alt=""
+          class=""
+        />
+        <div>
+          <h5 style="font-size: 16px" class="ml-3">Daily workout</h5>
+          <ul>
+            <li style="font-size: 13px">Squats 10x3</li>
+            <li style="font-size: 13px">Push Up 10x3</li>
+            <li style="font-size: 13px">Push Up 10x3</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mb-0">9:00 AM</p>
+    </div>
+
+    <div
+      style="background-color: rgba(224, 223, 223, 0.382); border-radius: 20px"
+      class="container mt-3 p-3 d-flex justify-content-between "
+    >
+      <div class="d-flex">
+        <img
+          style="width: 30px; height: 30px"
+          src="https://assets.streamlinehq.com/image/private/w_800,h_800,ar_1/f_auto/v1/icons/barcelona/work/work/office-work-1-kkuhdkemmvczqs97n4m.png?_a=DAJFJtWIZAAC"
+          alt=""
+          class=""
+        />
+        <div>
+          <h5 style="font-size: 16px" class="ml-3">shift project kick pt.1</h5>
+          <p style="font-size: 13px; width: 70%;" class="ml-3">
+            zoom call, kick off from elena and jordan with shift
+          </p>
+          <div class="d-flex align-items-center ">
+            <img style="width: 25px; margin-left: 20px;" src="assets/emoji1.jpg" alt="attendee2" class="rounded-circle me-2">
+            <img style="width: 25px;" src="assets/emoji2.jpg" alt="attendee1" class="rounded-circle me-2">
+            <img style="width: 25px;" src="assets/emoji3.jpg" alt="attendee3" class="rounded-circle me-2">
+            <span style="font-size: 12px;" class="text-muted ">+3 attendees</span>
+          </div>
+
+        </div>
+      </div>
+      <p style="width: 100px;" class="mb-0 " >10:00 AM 11:30 AM</p>
+    </div>
+    <div
+      style="background-color: rgba(224, 223, 223, 0.382); border-radius: 20px"
+      class="container mt-3 p-3 d-flex justify-content-between "
+    >
+      <div class="d-flex">
+        <img
+          style="width: 30px; height: 30px;border-radius: 20px;"
+          src="https://static.vecteezy.com/system/resources/thumbnails/016/990/716/small_2x/sushi-rice-fish-free-vector.jpg"
+          alt=""
+          class=""
+        />
+        <div>
+          <h5 style="font-size: 16px" class="ml-3">Skype Sushi</h5>
+          <p style="font-size: 13px; width: 70%;" class="ml-3">
+            Lunch with Ally fight, this qurantine with humour          </p>
+          
+
+        </div>
+      </div>
+      <p style="width: 100px;" class="mb-0 " > 12:30 AM</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
